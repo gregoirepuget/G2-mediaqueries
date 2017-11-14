@@ -1,4 +1,33 @@
 .header__nav{
+  background:$background-grey-light;
 
+  @media screen and (max-width:$stepSize1)
+  {
+    display:none;
+  }
 
+  &__menu{
+    display:flex;
+    flex-direction: row;
+    padding-left:0;
+
+    li{
+      list-style:none;
+
+      &:first-child{
+        a{
+          padding-bottom:10px
+        }
+      }
+
+      a{
+        padding:30px 25px;
+        display: block;
+        color:$white;
+        text-decoration:none;
+        font-size:1.2rem;
+        font-weight: bold;
+      }
+    }
+  }
 }

@@ -1,6 +1,19 @@
 .header__topBar{
   background:$background-grey-dark;
 
+  &__burger{
+    float:right;
+    margin-right:5px;
+    margin-top:5px;
+    display:none;
+
+    @media screen and (max-width:$stepSize1)
+    {
+      display:block;
+    }
+
+  }
+
   div{
 
     h1{

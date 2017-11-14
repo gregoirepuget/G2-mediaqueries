@@ -12,4 +12,14 @@ body{
 .container{
   width:940px;
   margin:0 auto;
+
+  @media screen and (min-width:$stepSize1) and (max-width:$stepSize2)
+  {
+    width:640px;
+  }
+
+  @media screen and (max-width:$stepSize1)
+  {
+    width:100%;
+  }
 }
