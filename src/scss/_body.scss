@@ -3,7 +3,13 @@ html{
 }
 body{
   font-family:$primary-font;
+  background:$background-grey-ultraLight;
   color:$secondary-color;
   margin:0;
   box-sizing: border-box;
+}
+
+.container{
+  width:940px;
+  margin:0 auto;
 }

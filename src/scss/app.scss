@@ -1,6 +1,5 @@
 @import 'config';
 @import 'body';
 
-*{
-  color:#FF8800;
-}
+@import 'header/headerTopBar';
+@import 'header/headerNav';

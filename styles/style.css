@@ -16,13 +16,27 @@ html {
 
 body {
   font-family: "nexa", "Arial", sans-serif;
+  background: #ebebeb;
   color: #4f4f4f;
   margin: 0;
   box-sizing: border-box;
 }
 
-* {
-  color: #FF8800;
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.header__topBar {
+  background: #373737;
+}
+.header__topBar div h1 {
+  font-size: 1.8rem;
+  color: #FFFFFF;
+  padding: 20px 10px;
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
 }
 
 /*# sourceMappingURL=style.css.map */
