@@ -906,13 +906,26 @@ body {
 }
 @media screen and (max-width: 640px) {
   .header__nav {
-    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transform: translateX(-100%);
+    transition: all 0.250s ease-in;
+  }
+  .header__nav.is-active {
+    transform: translateX(0);
   }
 }
 .header__nav__menu {
   display: flex;
   flex-direction: row;
   padding-left: 0;
+}
+@media screen and (max-width: 640px) {
+  .header__nav__menu {
+    flex-direction: column;
+    width: 200px;
+  }
 }
 .header__nav__menu li {
   list-style: none;
@@ -927,6 +940,7 @@ body {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: bold;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
