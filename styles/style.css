@@ -10,6 +10,17 @@
   font-weight: bold;
   font-style: normal;
 }
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "nexa", "Arial", sans-serif;
+  color: #4f4f4f;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 * {
   color: #FF8800;
 }
